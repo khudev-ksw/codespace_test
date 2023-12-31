@@ -1,5 +1,7 @@
 /node_modules/
 /public/build/
 /package-lock.json
+/src/db/
 
 .DS_Store
+env.js

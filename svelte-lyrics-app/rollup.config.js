@@ -5,6 +5,8 @@ import terser from '@rollup/plugin-terser';
 import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import css from 'rollup-plugin-css-only';
+import json from '@rollup/plugin-json';
+import polyfillNode from 'rollup-plugin-polyfill-node';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -47,6 +49,7 @@ export default {
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: 'bundle.css' }),
+		json(),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
@@ -59,6 +62,7 @@ export default {
 			exportConditions: ['svelte']
 		}),
 		commonjs(),
+		polyfillNode(),
 
 		// In dev mode, call `npm run start` once
 		// the bundle has been generated

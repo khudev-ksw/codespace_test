@@ -1,9 +1,48 @@
-<script>
+<!-- <script context="module">
+  // DB connetion
+  import { connectToDatabase } from './db/mongo';
 
+  export async function load({ params }) {
+    const { songId } = "aaa";
+
+    const client = await connectToDatabase();
+    const database = client.db('DailyLyrics');
+    const songsCollection = database.collection('songInfo');
+    const song = await songsCollection.findOne({ songId });
+
+    console.log(song);
+
+    return {
+      props: {
+        song,
+      },
+    };
+  }
+
+</script> -->
+
+<script>
+  // export let song;
+
+  // export let name;
   import { onMount } from "svelte";
 	import Lyrics from './Lyrics.svelte';
 
   let songList = [];
+
+  // onMount(async () => {
+  //   // 페이지가 로드되면서 한 번만 실행되는 로직 추가 가능
+  //   const response = await fetch('./db/temp_db.json');
+  //   const data = await response.json();
+
+  //   const todayJ = new Date().toISOString().split('T')[0]; // 한국 기준 시간대로 수정 필요
+
+  //   songList = data.filter(song => song.date === todayJ);
+
+  //   console.log(songList);
+
+    
+  // });
 
   let today = new Date();
   today.setHours(today.getHours+9); // Set to KST
@@ -78,3 +117,17 @@ header {
     </div>
 	{/if}
 </div>
+
+
+
+
+<!--
+  .background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5; /* 원하는 불투명도 설정 */
+  }
+
+-->
