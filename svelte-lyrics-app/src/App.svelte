@@ -6,7 +6,7 @@
   let songList = [];
 
   let today = new Date();
-  today.setHours(today.getHours+9); // Set to KST
+  today.setHours(today.getHours()+9); // Set to KST
   let dayNames = ["일", "월", "화", "수", "목", "금", "토"];
   let dayOfWeek = dayNames[today.getDay()];
   let title = "하루 한 곡";
