@@ -3,16 +3,33 @@
   import { onMount } from "svelte";
 	import Lyrics from './Lyrics.svelte';
 
-  let songList = [];
+  let songList = [
+    {
+      "id": 1,
+      "title": "하늘 위로(Up)",
+      "artist": "아이즈원(IZ*ONE)",
+      "thumbnail": "https://i.namu.wiki/i/YSEQmx8s3trKntCl5cuINHI9gXNL1bCCAvQXXVMHPgWAa9JyK9j1eEFUgZtRST_TD-sywrMR9ujd_KdfclNesGDfbhptzB7EDw6d0w28-jdh03ZfEBjl_cJmserWhyHzInufTEEe2Jl4Av8CFiqAHw.webp",
+      "mvurl": "https://www.youtube.com/embed/QqlxGUm9MLE?si=nD-Lh8hON1QY3Nqv",
+      "date": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "title": "별의 하모니(Harmoney of stars)",
+      "artist": "QWER",
+      "thumbnail": "https://i.namu.wiki/i/TclIk6XCp0alVu2n2N5-kOfqxjcmGFzzsiA5R0BLSMksnvLvO8RFsTd7zTRMDDK9yjI-vDsw7PKIOpf_vQjeACESafkrTYu0Rn8l6jPzf6zQucRvtSBf3MvKD_MThWdum3PFzHfT4NTZWy1co5jXYg.webp",
+      "mvurl": "https://www.youtube.com/embed/On6Pm4M-dQQ?si=tcSPM0vq7Gx3ES7E",
+      "date": "2024-01-02"
+    }
+  ];
 
   let today = new Date();
-  today.setHours(today.getHours()+9); // Set to KST
+  today.setHours(today.getHours()); // Set to KST
   let dayNames = ["일", "월", "화", "수", "목", "금", "토"];
   let dayOfWeek = dayNames[today.getDay()];
   let title = "하루 한 곡";
   
-  
-  
+  let songNum = today.getDate()-1;
+  console.log(today);
   
 </script>
 
@@ -45,7 +62,7 @@ header {
 .album-art {
     width: 500px; /* 앨범 아트의 너비 설정 */
     height: 500px; /* 앨범 아트의 높이 설정 */
-    background-image: url('https://i.namu.wiki/i/YSEQmx8s3trKntCl5cuINHI9gXNL1bCCAvQXXVMHPgWAa9JyK9j1eEFUgZtRST_TD-sywrMR9ujd_KdfclNesGDfbhptzB7EDw6d0w28-jdh03ZfEBjl_cJmserWhyHzInufTEEe2Jl4Av8CFiqAHw.webp'); /* 앨범 아트 이미지 설정 */
+    /* background-image: url('https://i.namu.wiki/i/YSEQmx8s3trKntCl5cuINHI9gXNL1bCCAvQXXVMHPgWAa9JyK9j1eEFUgZtRST_TD-sywrMR9ujd_KdfclNesGDfbhptzB7EDw6d0w28-jdh03ZfEBjl_cJmserWhyHzInufTEEe2Jl4Av8CFiqAHw.webp'); /* 앨범 아트 이미지 설정 */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -73,7 +90,7 @@ header {
 	{#if (today.getMonth()==11 && today.getDate()==31)}
     아직 서비스 오픈하지 않았습니다.
   {:else}
-    <div class="album-art">
+    <div class="album-art" style="background-image: url({songList[songNum]['thumbnail']})">
       <Lyrics/>
     </div>
 	{/if}
