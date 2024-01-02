@@ -1,6 +1,7 @@
 <script>
     let lyrics1;
     let lyrics2;
+    let lyrics = [];
     let mvurl;
     let showPlayIcon = false;
     let showVideoPlayer = false;
@@ -17,8 +18,12 @@
         "thumbnail": "https://i.namu.wiki/i/YSEQmx8s3trKntCl5cuINHI9gXNL1bCCAvQXXVMHPgWAa9JyK9j1eEFUgZtRST_TD-sywrMR9ujd_KdfclNesGDfbhptzB7EDw6d0w28-jdh03ZfEBjl_cJmserWhyHzInufTEEe2Jl4Av8CFiqAHw.webp",
         "mvurl": "https://www.youtube.com/embed/QqlxGUm9MLE?si=nD-Lh8hON1QY3Nqv",
         "date": "2024-01-01",
-        "lyrics1": "구름에 적어둬 없어지지 않도록",
-        "lyrics2": "언제나 보고 싶을때 나만 꺼내 볼거야"
+        "lyricsNum": 2,
+        "lyrics":
+        [
+          "구름에 적어둬 없어지지 않도록",
+          "언제나 보고 싶을때 나만 꺼내 볼거야"
+        ]
       },
       {
         "id": 2,
@@ -27,10 +32,38 @@
         "thumbnail": "https://i.namu.wiki/i/TclIk6XCp0alVu2n2N5-kOfqxjcmGFzzsiA5R0BLSMksnvLvO8RFsTd7zTRMDDK9yjI-vDsw7PKIOpf_vQjeACESafkrTYu0Rn8l6jPzf6zQucRvtSBf3MvKD_MThWdum3PFzHfT4NTZWy1co5jXYg.webp",
         "mvurl": "https://www.youtube.com/embed/On6Pm4M-dQQ?si=tcSPM0vq7Gx3ES7E",
         "date": "2024-01-02",
-        "lyrics1": "너와 함께라는 이유로 운명을 믿어 난",
-        "lyrics2": "눈 앞에 펼쳐진 미랠 향해 인사를 해, 빛나는 별처럼"
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "너와 함께라는 이유로 운명을 믿어 난",
+          "눈 앞에 펼쳐진 미랠 향해 인사를 해",
+          "빛나는 별처럼"
+        ]
+        
+      },
+      {
+        "id": 3,
+        "title": "Jump",
+        "artist": "김동률",
+        "thumbnail": "https://i.namu.wiki/i/wTLNyckul3i0nKFfIZVq1XAe-88hlbi_EHzxUvVTe188eRq0naWpnLtZ_Pkx1FgBt7rIMj5e90xU7XHhTr45zFkSglqfmwkabKfX4JKVGp_fZuw2VHGdwt0bvd3mj2K8Jv2AAwTEwRCBkOiS-nFRZQ.webp",
+        "mvurl": "https://www.youtube.com/embed/wbXSaM2-vQ0?si=RNcA-sxR6-YV8bGc&amp;start=800",
+        "date": "2024-01-03",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "하고 싶은 일이 많았었는데 웬일인지 다 시시해",
+          "아직 모든게 신기한 내 스무 살 때 처럼",
+          "새로운 일들에 설레하며 가슴이 뛰고 싶어"
+        ]
       }
     ];
+
+    // 가사 수에 따른 lyrics 초기화
+    for(let i=0;i<lsongList[lsongNum]["lyricsNum"];i++) {
+      let lyricLine = lsongList[lsongNum]["lyrics"][i];
+      lyrics = [...lyrics, lyricLine];
+    }
+    console.log(lyrics);
 
     lyrics1 = lsongList[lsongNum]["lyrics1"];
     lyrics2 = lsongList[lsongNum]["lyrics2"];
@@ -85,8 +118,12 @@
 </style>
 
 <div class="lyrics" on:mouseover={togglePlayIcon} on:mouseout={togglePlayIcon} on:click={toggleVideoPlayer}>
-  <p class="lyrics-line">{lyrics1}</p>
-  <p class="lyrics-line">{lyrics2}</p>
+  
+  {#each lyrics as line}
+    <p class="lyrics-line">{line}</p>
+  {/each}
+  <!-- <p class="lyrics-line">{lyrics1}</p>
+  <p class="lyrics-line">{lyrics2}</p> -->
   {#if showPlayIcon}
     <span class="play-icon show">▶</span>
   {/if}
