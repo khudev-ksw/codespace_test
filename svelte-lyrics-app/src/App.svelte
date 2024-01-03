@@ -4,23 +4,70 @@
 	import Lyrics from './Lyrics.svelte';
 
   let songList = [
-    {
-      "id": 1,
-      "title": "하늘 위로(Up)",
-      "artist": "아이즈원(IZ*ONE)",
-      "thumbnail": "https://i.namu.wiki/i/YSEQmx8s3trKntCl5cuINHI9gXNL1bCCAvQXXVMHPgWAa9JyK9j1eEFUgZtRST_TD-sywrMR9ujd_KdfclNesGDfbhptzB7EDw6d0w28-jdh03ZfEBjl_cJmserWhyHzInufTEEe2Jl4Av8CFiqAHw.webp",
-      "mvurl": "https://www.youtube.com/embed/QqlxGUm9MLE?si=nD-Lh8hON1QY3Nqv",
-      "date": "2024-01-01"
-    },
-    {
-      "id": 2,
-      "title": "별의 하모니(Harmoney of stars)",
-      "artist": "QWER",
-      "thumbnail": "https://i.namu.wiki/i/TclIk6XCp0alVu2n2N5-kOfqxjcmGFzzsiA5R0BLSMksnvLvO8RFsTd7zTRMDDK9yjI-vDsw7PKIOpf_vQjeACESafkrTYu0Rn8l6jPzf6zQucRvtSBf3MvKD_MThWdum3PFzHfT4NTZWy1co5jXYg.webp",
-      "mvurl": "https://www.youtube.com/embed/On6Pm4M-dQQ?si=tcSPM0vq7Gx3ES7E",
-      "date": "2024-01-02"
-    }
-  ];
+      {
+        "id": 1,
+        "title": "하늘 위로(Up)",
+        "artist": "아이즈원(IZ*ONE)",
+        "thumbnail": "https://i.namu.wiki/i/YSEQmx8s3trKntCl5cuINHI9gXNL1bCCAvQXXVMHPgWAa9JyK9j1eEFUgZtRST_TD-sywrMR9ujd_KdfclNesGDfbhptzB7EDw6d0w28-jdh03ZfEBjl_cJmserWhyHzInufTEEe2Jl4Av8CFiqAHw.webp",
+        "mvurl": "https://www.youtube.com/embed/QqlxGUm9MLE?si=nD-Lh8hON1QY3Nqv",
+        "date": "2024-01-01",
+        "lyricsNum": 2,
+        "lyrics":
+        [
+          "구름에 적어둬 없어지지 않도록",
+          "언제나 보고 싶을때 나만 꺼내 볼거야"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "별의 하모니(Harmoney of stars)",
+        "artist": "QWER",
+        "thumbnail": "https://i.namu.wiki/i/TclIk6XCp0alVu2n2N5-kOfqxjcmGFzzsiA5R0BLSMksnvLvO8RFsTd7zTRMDDK9yjI-vDsw7PKIOpf_vQjeACESafkrTYu0Rn8l6jPzf6zQucRvtSBf3MvKD_MThWdum3PFzHfT4NTZWy1co5jXYg.webp",
+        "mvurl": "https://www.youtube.com/embed/On6Pm4M-dQQ?si=tcSPM0vq7Gx3ES7E",
+        "date": "2024-01-02",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "너와 함께라는 이유로 운명을 믿어 난",
+          "눈 앞에 펼쳐진 미랠 향해 인사를 해",
+          "빛나는 별처럼"
+        ]
+        
+      },
+      {
+        "id": 3,
+        "title": "Jump",
+        "artist": "김동률",
+        "thumbnail": "https://i.namu.wiki/i/wTLNyckul3i0nKFfIZVq1XAe-88hlbi_EHzxUvVTe188eRq0naWpnLtZ_Pkx1FgBt7rIMj5e90xU7XHhTr45zFkSglqfmwkabKfX4JKVGp_fZuw2VHGdwt0bvd3mj2K8Jv2AAwTEwRCBkOiS-nFRZQ.webp",
+        "mvurl" : "https://www.youtube.com/embed/-FSQ3DaVE9E?si=Qrq5IihGYxIkZwaY",
+        "mvurlalt": "https://www.youtube.com/embed/wbXSaM2-vQ0?si=7xj8_8qdsx1PK65a",
+        "date": "2024-01-03",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "하고 싶은 일이 많았었는데 웬일인지 다 시시해",
+          "아직 모든게 신기한 내 스무 살 때 처럼",
+          "새로운 일들에 설레하며 가슴이 뛰고 싶어"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "우주를 줄게",
+        "artist": "볼빨간사춘기",
+        "thumbnail": "https://i.namu.wiki/i/vbcm7cee53m6nahs4pvwTZtGC8FLZO2REPEcJDpNAh6C3gIDetj5Dc2k0zTVxnZGBu0Pix9ovsDrfv2wgn06NxXLOWXaz7bJEoXJuxm3DKNFWcM9ifjqh06vwMRusLljFljwgHtvOzrEJ3pE8c4TSA.webp",
+        "mvurl" : "https://www.youtube.com/embed/MYBScu8ha0I?si=n4wYHMREdldxCeV1",
+        "mvurlalt": "https://www.youtube.com/embed/9U8uA702xrE?si=0usD_JtOKHdUE3vy",
+        "date": "2024-01-03",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "어제는 내가 기분이 참 좋아서",
+          "지나간 행성에다가 그대 이름 새겨 놓았죠",
+          "한참 뒤에 별빛이 내리면",
+          "그 별이 가장 밝게 빛나요"
+        ]
+      }
+    ];
 
   let today = new Date();
   today.setHours(today.getHours()); // Set to KST
@@ -29,6 +76,7 @@
   let title = "하루 한 곡";
   
   let songNum = today.getDate()-1;
+  // let songNum = 3;
   console.log(today);
   
 </script>

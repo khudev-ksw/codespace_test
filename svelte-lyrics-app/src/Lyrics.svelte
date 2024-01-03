@@ -9,6 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
+    // let lsongNum = 3;
 
     let lsongList = [
       {
@@ -46,7 +47,8 @@
         "title": "Jump",
         "artist": "김동률",
         "thumbnail": "https://i.namu.wiki/i/wTLNyckul3i0nKFfIZVq1XAe-88hlbi_EHzxUvVTe188eRq0naWpnLtZ_Pkx1FgBt7rIMj5e90xU7XHhTr45zFkSglqfmwkabKfX4JKVGp_fZuw2VHGdwt0bvd3mj2K8Jv2AAwTEwRCBkOiS-nFRZQ.webp",
-        "mvurl": "https://www.youtube.com/embed/wbXSaM2-vQ0?si=RNcA-sxR6-YV8bGc&amp;start=800",
+        "mvurl" : "https://www.youtube.com/embed/-FSQ3DaVE9E?si=Qrq5IihGYxIkZwaY",
+        "mvurlalt": "https://www.youtube.com/embed/wbXSaM2-vQ0?si=7xj8_8qdsx1PK65a",
         "date": "2024-01-03",
         "lyricsNum": 3,
         "lyrics":
@@ -54,6 +56,23 @@
           "하고 싶은 일이 많았었는데 웬일인지 다 시시해",
           "아직 모든게 신기한 내 스무 살 때 처럼",
           "새로운 일들에 설레하며 가슴이 뛰고 싶어"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "우주를 줄게",
+        "artist": "볼빨간사춘기",
+        "thumbnail": "https://i.namu.wiki/i/vbcm7cee53m6nahs4pvwTZtGC8FLZO2REPEcJDpNAh6C3gIDetj5Dc2k0zTVxnZGBu0Pix9ovsDrfv2wgn06NxXLOWXaz7bJEoXJuxm3DKNFWcM9ifjqh06vwMRusLljFljwgHtvOzrEJ3pE8c4TSA.webp",
+        "mvurl" : "https://www.youtube.com/embed/MYBScu8ha0I?si=n4wYHMREdldxCeV1",
+        "mvurlalt": "https://www.youtube.com/embed/9U8uA702xrE?si=0usD_JtOKHdUE3vy",
+        "date": "2024-01-03",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "어제는 내가 기분이 참 좋아서",
+          "지나간 행성에다가 그대 이름 새겨 놓았죠",
+          "한참 뒤에 별빛이 내리면",
+          "그 별이 가장 밝게 빛나요"
         ]
       }
     ];
@@ -68,6 +87,7 @@
     lyrics1 = lsongList[lsongNum]["lyrics1"];
     lyrics2 = lsongList[lsongNum]["lyrics2"];
     mvurl = lsongList[lsongNum]["mvurl"];
+    console.log(mvurl);
 
     function togglePlayIcon() {
       showPlayIcon = !showPlayIcon;
