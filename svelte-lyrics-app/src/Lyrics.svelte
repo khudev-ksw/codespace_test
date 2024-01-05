@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 3;
+    // let lsongNum = 5;
 
     let lsongList = [
       {
@@ -77,7 +77,7 @@
       },
       {
         "id": 5,
-        "title": "회전목마 (Feat. Zion.T, 원슈타인",
+        "title": "회전목마 (Feat. Zion.T, 원슈타인)",
         "artist": "소코도모",
         "thumbnail": "https://i.namu.wiki/i/7fQgahkg_dZ4353cvUnfw6Rq0j4FbWw-5o8UEJx__qsH62aVQL4_8cIrem0BNWRSK-Xtj3UAp2KruLSREHmkFxhpGZVbVbow8nuiEGOyAsPXlEZfWy9qwrjmhMLjKyb_dSMvYZsZM_oV-YVoks6Iog.webp",
         "mvurl" : "https://www.youtube.com/embed/tnAxZipkuWw?si=a5d_M-sCFcteBnJb",
@@ -90,6 +90,21 @@
           "영원히 계속될 것처럼",
           "빙빙 돌아온 우리의 시간처럼",
           "인생은 회전목마"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Either Way",
+        "artist": "IVE (아이브)",
+        "thumbnail": "https://i.namu.wiki/i/WU4wKflKkzaeq_bhXiLPDcud6WmEJP07Km-mo7c1jpsG4a853y87xBVVxT_elb_KgxhTxiEw7mlGTeHcC8i3SYuC1Ron9Ofb75DeTL9PKM1SUmhj759ou7xSrlJxh6LWNXwiBpqsgsTqI6fKHf9N8A.webp",
+        "mvurl" : "https://www.youtube.com/embed/cJc62vZZs8A?si=PNfhOW_qZBzvZmwQ",
+        "mvurlalt": "https://www.youtube.com/embed/_Hu4GYtye5U?si=lQb7iLfQyybk5MGF",
+        "date": "2024-01-05",
+        "lyricsNum": 2,
+        "lyrics":
+        [
+          "쟤 I 라서 그래 넌 E 라서 그래",
+          "됐고 그냥 V 나 하자"
         ]
       }
     ];
