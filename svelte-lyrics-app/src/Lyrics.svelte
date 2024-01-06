@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 5;
+    // let lsongNum = 6;
 
     let lsongList = [
       {
@@ -105,6 +105,22 @@
         [
           "쟤 I 라서 그래 넌 E 라서 그래",
           "됐고 그냥 V 나 하자"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "MIRROR",
+        "artist": "권은비",
+        "thumbnail": "https://i.namu.wiki/i/PVxdfPyaX6oHXzJYA75rzu4kAkHUB2uwvl-6LhCJdAbN43zZiqBRm1dC3lZNy6irmjyr7XhtHxmmq4Z7uWP3492lI1sLxynK-cr2G-tqy7FTXyupIga5qGSeCON0a5KTdHtqnJAGmF82nQ86aswmRg.webp",
+        "mvurl" : "https://www.youtube.com/embed/V7KHhsUMAI0?si=2LI6a95J_jhnF_UH",
+        "mvurlalt": " ",
+        "date": "2024-01-06",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "외로웠던 시간 버텨왔던 날들",
+          "잘해왔잖아 모두 다",
+          "좀 느려도 괜찮아 내가 여기 기다릴게"
         ]
       }
     ];
