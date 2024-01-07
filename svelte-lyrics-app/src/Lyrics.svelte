@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 6;
+    // let lsongNum = 8;
 
     let lsongList = [
       {
@@ -65,7 +65,7 @@
         "thumbnail": "https://i.namu.wiki/i/vbcm7cee53m6nahs4pvwTZtGC8FLZO2REPEcJDpNAh6C3gIDetj5Dc2k0zTVxnZGBu0Pix9ovsDrfv2wgn06NxXLOWXaz7bJEoXJuxm3DKNFWcM9ifjqh06vwMRusLljFljwgHtvOzrEJ3pE8c4TSA.webp",
         "mvurl" : "https://www.youtube.com/embed/MYBScu8ha0I?si=n4wYHMREdldxCeV1",
         "mvurlalt": "https://www.youtube.com/embed/9U8uA702xrE?si=0usD_JtOKHdUE3vy",
-        "date": "2024-01-03",
+        "date": "2024-01-04",
         "lyricsNum": 4,
         "lyrics":
         [
@@ -82,7 +82,7 @@
         "thumbnail": "https://i.namu.wiki/i/7fQgahkg_dZ4353cvUnfw6Rq0j4FbWw-5o8UEJx__qsH62aVQL4_8cIrem0BNWRSK-Xtj3UAp2KruLSREHmkFxhpGZVbVbow8nuiEGOyAsPXlEZfWy9qwrjmhMLjKyb_dSMvYZsZM_oV-YVoks6Iog.webp",
         "mvurl" : "https://www.youtube.com/embed/tnAxZipkuWw?si=a5d_M-sCFcteBnJb",
         "mvurlalt": " ",
-        "date": "2024-01-04",
+        "date": "2024-01-05",
         "lyricsNum": 4,
         "lyrics":
         [
@@ -99,7 +99,7 @@
         "thumbnail": "https://i.namu.wiki/i/WU4wKflKkzaeq_bhXiLPDcud6WmEJP07Km-mo7c1jpsG4a853y87xBVVxT_elb_KgxhTxiEw7mlGTeHcC8i3SYuC1Ron9Ofb75DeTL9PKM1SUmhj759ou7xSrlJxh6LWNXwiBpqsgsTqI6fKHf9N8A.webp",
         "mvurl" : "https://www.youtube.com/embed/cJc62vZZs8A?si=PNfhOW_qZBzvZmwQ",
         "mvurlalt": "https://www.youtube.com/embed/_Hu4GYtye5U?si=lQb7iLfQyybk5MGF",
-        "date": "2024-01-05",
+        "date": "2024-01-06",
         "lyricsNum": 2,
         "lyrics":
         [
@@ -114,13 +114,46 @@
         "thumbnail": "https://i.namu.wiki/i/PVxdfPyaX6oHXzJYA75rzu4kAkHUB2uwvl-6LhCJdAbN43zZiqBRm1dC3lZNy6irmjyr7XhtHxmmq4Z7uWP3492lI1sLxynK-cr2G-tqy7FTXyupIga5qGSeCON0a5KTdHtqnJAGmF82nQ86aswmRg.webp",
         "mvurl" : "https://www.youtube.com/embed/V7KHhsUMAI0?si=2LI6a95J_jhnF_UH",
         "mvurlalt": " ",
-        "date": "2024-01-06",
+        "date": "2024-01-07",
         "lyricsNum": 3,
         "lyrics":
         [
           "외로웠던 시간 버텨왔던 날들",
           "잘해왔잖아 모두 다",
           "좀 느려도 괜찮아 내가 여기 기다릴게"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "사건의 지평선",
+        "artist": "윤하",
+        "thumbnail": "https://i.namu.wiki/i/tVpSZIeqgkQXACiB3Cr12HZ7kBdas93tIJZz9z2zmth9DWEUTfxVslb88hIEDhJ0-CPjnCNtgL27pnvR_sg9IoDm_jV7-x-8_INrzV_kB6jl-A5GsBwdYgmJ8eprYySi8GiO71tJYI3EIw-m6aF_cw.webp",
+        "mvurl" : "https://www.youtube.com/embed/BBdC1rl5sKY?si=fVus5iX5Si_j-qQ2",
+        "mvurlalt": " ",
+        "date": "2024-01-08",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "솔직히 두렵기도 하지만",
+          "노력은 우리에게 정답이 아니라서",
+          "마지막 선물은 산뜻한 안녕"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "This Time",
+        "artist": "조유리",
+        "thumbnail": "https://i.namu.wiki/i/xz_c11EoM1gMomoS1HuiRrOb6NOaZxqi_jo1yfzW9suzh90jpvHWooTFK688B-2htvfTNbkp3TR4PTuucWwDPwPqfA1FMn_6j1Wn7cjeQbI6AGntCTo-EngIHsXUn2tqwQr-BGicC1jbT_-VE2CVyw.webp",
+        "mvurl" : "https://www.youtube.com/embed/QkOPJG1DwWU?si=zOzWBt5CKh0tdyH7",
+        "mvurlalt": " ",
+        "date": "2024-01-09",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "반짝이는 저 하늘의 별 곁에 은은한 달빛",
+          "소리 없이 마음을 울리는 따뜻한 손길",
+          "일렁이는 물결처럼 가끔은 두려워도",
+          "간절한 이 꿈속에 우리가 있어"
         ]
       }
     ];
