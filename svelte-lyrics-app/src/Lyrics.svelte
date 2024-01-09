@@ -8,8 +8,8 @@
 
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
-    let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 8;
+    // let lsongNum = ltoday.getDate()-1;
+    let lsongNum = 9;
 
     let lsongList = [
       {
@@ -154,6 +154,23 @@
           "소리 없이 마음을 울리는 따뜻한 손길",
           "일렁이는 물결처럼 가끔은 두려워도",
           "간절한 이 꿈속에 우리가 있어"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "This Time",
+        "artist": "아이즈원(IZ*ONE)",
+        "thumbnail": "https://i.namu.wiki/i/2eaWoLJNiHx35ChvW1Z-6OzuA-DhtuZd4a4j6bwQU5mVo_ZRQSvfgx9qNGRRtHaV7l0TgB3N8t_MgFHbK1pH-cyQNjqpVG6jocfJbGYBaFJWyEZYHWl-rijR5YQyNJa9HQ9uV127QYZPNg6G0Z6Jiw.webp",
+        "mvurl" : "https://www.youtube.com/embed/BaKSB650TNk?si=rIUIm_wK5tRcmaAV",
+        "mvurlalt": " ",
+        "date": "2024-01-10",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "언젠가 우리의 밤도 모두 지나가겠죠",
+          "끝없는 어둠이 밀려와도 난 다신",
+          "두려워하지는 않죠 우리 두 손 꼭 잡고서",
+          "어둠 끝자락 함께 걸어갈게요"
         ]
       }
     ];
