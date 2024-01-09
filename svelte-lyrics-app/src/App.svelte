@@ -174,8 +174,8 @@
   let dayOfWeek = dayNames[today.getDay()];
   let title = "하루 한 곡";
   
-  // let songNum = today.getDate()-1;
-  let songNum = 9;
+  let songNum = today.getDate()-1;
+  // let songNum = 9;
   console.log(today);
   
 </script>

@@ -8,8 +8,8 @@
 
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
-    // let lsongNum = ltoday.getDate()-1;
-    let lsongNum = 9;
+    let lsongNum = ltoday.getDate()-1;
+    // let lsongNum = 9;
 
     let lsongList = [
       {
