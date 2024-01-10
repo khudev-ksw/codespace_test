@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 9;
+    // let lsongNum = 10;
 
     let lsongList = [
       {
@@ -171,6 +171,24 @@
           "끝없는 어둠이 밀려와도 난 다신",
           "두려워하지는 않죠 우리 두 손 꼭 잡고서",
           "어둠 끝자락 함께 걸어갈게요"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "도망가자",
+        "artist": "선우정아",
+        "thumbnail": "https://image.bugsm.co.kr/album/images/500/202938/20293864.jpg",
+        "mvurl" : "https://www.youtube.com/embed/4gOfncuKK9k?si=E7a2IwHBUiFkTIuh",
+        "mvurlalt": " ",
+        "date": "2024-01-11",
+        "lyricsNum": 5,
+        "lyrics":
+        [
+          "걱정은 잠시 내려놓고",
+          "대신 가볍게 짐을 챙기자",
+          "실컷 웃고 다시 돌아오자",
+          "거기서는 우리 아무 생각말자",
+          "너의 얼굴 위에 빛이 스며들 때까지"
         ]
       }
     ];
