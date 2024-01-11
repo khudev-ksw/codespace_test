@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 10;
+    // let lsongNum = 11;
 
     let lsongList = [
       {
@@ -189,6 +189,25 @@
           "실컷 웃고 다시 돌아오자",
           "거기서는 우리 아무 생각말자",
           "너의 얼굴 위에 빛이 스며들 때까지"
+        ]
+      },
+      {
+        "id": 12,
+        "title": "걱정 말아요 그대",
+        "artist": "들국화",
+        "thumbnail": "https://i.namu.wiki/i/LxUxSjKIJKX1GaWJ-3GzHoA2v1bYHAY-6wSvs0asVdcS3JRw7iXXLp4vG5Q6u0Ug9IcjxcgESWqMAdk7i-CgBoQLruv2dKzAJQRyYLcRMqgSe5Ng4-5VvC0gRFYiCoa0F7oZb-_pg2f5OvfYSikoUA.webp",
+        "mvurl" : "https://www.youtube.com/embed/zZOCgNXU9eY?si=6qlD7ThpCw32ETVS",
+        "mvurlalt": "https://www.youtube.com/embed/K_d75cH7IJw?si=GNv165flwbyY-kpr",
+        "date": "2024-01-12",
+        "lyricsNum": 6,
+        "lyrics":
+        [
+          "그대 슬픈 얘기들 모두 그대여",
+          "그대 탓으로 훌훌 털어 버리고",
+          "지나간 것은 지나간 대로",
+          "그런 의미가 있죠",
+          "우리 다 함께 노래합시다",
+          "후회 없이 꿈을 꾸었다 말해요"
         ]
       }
     ];
