@@ -201,6 +201,23 @@
           "우리 다 함께 노래합시다",
           "후회 없이 꿈을 꾸었다 말해요"
         ]
+      },
+      {
+        "id": 13,
+        "title": "SMILEY (Feat. BIBI)",
+        "artist": "최예나",
+        "thumbnail": "https://i.namu.wiki/i/iLyc8UNJK4bg2uRQDuhOVKpEShb4yXkqJWJkVLsB7P1i6dN16l9m_N6M4uh6tYxD6t-DDQdK6sQhFSIw-bmu5C1cTrWJ4inVWi2oSqBZkaJLF1flLKGq8ySQeVE-T6RZWewtMMZ5IUTWjlDYCi4Jrw.webp",
+        "mvurl" : "https://www.youtube.com/embed/UboHqi8IQKc?si=Gcn6aB5O7SjsSlf5",
+        "mvurlalt": "https://www.youtube.com/embed/y9kkXTucnLU?si=G8CFNPzR-ppQBkql",
+        "date": "2024-01-13",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "And I say hey I'm gonna make it smile smile smile away",
+          "예쁘게 웃고 넘겨버릴래",
+          "Just Smile away Just smile away",
+          "아픔, 슬픔, 외로움 잊게"
+        ]
       }
     ];
 
@@ -212,7 +229,7 @@
   let title = "하루 한 곡";
   
   let songNum = today.getDate()-1;
-  // let songNum = 11;
+  // let songNum = 12;
   console.log(today);
   
 </script>
