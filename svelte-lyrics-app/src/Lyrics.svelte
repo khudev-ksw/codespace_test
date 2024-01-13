@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 12;
+    // let lsongNum = 13;
 
     let lsongList = [
       {
@@ -225,6 +225,24 @@
           "예쁘게 웃고 넘겨버릴래",
           "Just Smile away Just smile away",
           "아픔, 슬픔, 외로움 잊게"
+        ]
+      },
+      {
+        "id": 14,
+        "title": "괜찮아도 괜찮아 (That's okay)",
+        "artist": "디오",
+        "thumbnail": "https://i.namu.wiki/i/734o-wvg5zGYLY4IH7fDh4zb_I1B-Z4rsXkmL6f7rhdnpBmN_N-_yHMEqOvbiKpI_u1PBTppIMQbWyVr1U6rSfesThEENuoUseUKBtmjxo5y4S0kkVSx4KjpMJLwtg_LLrINzufdf0Yr0sXMYcRIlA.webp",
+        "mvurl" : "https://www.youtube.com/embed/4zC0O17rk1o?si=KJlvybL5dx-PNhB9",
+        "mvurlalt": "https://www.youtube.com/embed/WTzCWJVjTCM?si=V8JPQ0AB9R-UXmF0",
+        "date": "2024-01-14",
+        "lyricsNum": 5,
+        "lyrics":
+        [
+          "말하지 못할 고민거리",
+          "깊게 상처 난 자리",
+          "늘 같은 속도로 흘러가는 시간이",
+          "언제나 그랬듯이 씻어내줄 테니",
+          "흐르듯 살아도 그냥 괜찮아 괜찮아도"
         ]
       }
     ];
