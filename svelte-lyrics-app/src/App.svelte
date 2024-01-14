@@ -236,6 +236,23 @@
           "언제나 그랬듯이 씻어내줄 테니",
           "흐르듯 살아도 그냥 괜찮아 괜찮아도"
         ]
+      },
+      {
+        "id": 15,
+        "title": "슈퍼스타",
+        "artist": "이한철",
+        "thumbnail": "https://image.bugsm.co.kr/album/images/500/80174/8017438.jpg",
+        "mvurl" : "https://www.youtube.com/embed/URRimPZBHf8?si=zNh4skjl2unD8eVR",
+        "mvurlalt": " ",
+        "date": "2024-01-15",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "괜찮아 잘 될 거야",
+          "너에겐 눈부신 미래가 있어",
+          "괜찮아 잘 될 거야",
+          "우린 널 믿어 의심치 않아"
+        ]
       }
     ];
 
@@ -247,7 +264,7 @@
   let title = "하루 한 곡";
   
   let songNum = today.getDate()-1;
-  // let songNum = 13;
+  // let songNum = 14;
   console.log(today);
   
 </script>
