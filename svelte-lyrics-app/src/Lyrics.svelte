@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 14;
+    // let lsongNum = 15;
 
     let lsongList = [
       {
@@ -260,6 +260,22 @@
           "너에겐 눈부신 미래가 있어",
           "괜찮아 잘 될 거야",
           "우린 널 믿어 의심치 않아"
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Good Morning",
+        "artist": "최예나",
+        "thumbnail": "https://i.namu.wiki/i/ruYiQ0zarecKSRXucyOZPoZUl_RmSAheqgP8sY3QV5-g7tx152rEUsi24omvd1JpixlYdsPM0qYV-p37cOQQMfNaZaxQteBSRUZMorv8rvM6I8-pQRmcPMJvlC-tW7bJf-Z6qZbovVODd3wcF__ojg.webp",
+        "mvurl" : "https://www.youtube.com/embed/jJjKlNeMr-I?si=fiRA8a5KqdYzabpN",
+        "mvurlalt": " ",
+        "date": "2024-01-16",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "어젯밤 눈물 자국 지우고",
+          "거울 속 내게 말해 Hi Babe",
+          "좋은 아침이야 오늘 하루만큼은"
         ]
       }
     ];
