@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 15;
+    // let lsongNum = 16;
 
     let lsongList = [
       {
@@ -276,6 +276,21 @@
           "어젯밤 눈물 자국 지우고",
           "거울 속 내게 말해 Hi Babe",
           "좋은 아침이야 오늘 하루만큼은"
+        ]
+      },
+      {
+        "id": 17,
+        "title": "거북이",
+        "artist": "트와이스",
+        "thumbnail": "https://i.namu.wiki/i/awzb12lAUumWhO0adHRHKcEUPAh0_QMmseuslq2bUgLsSAclv63j8Zk-gx7o3TCNj1HskB_CXqNaoaUaUS2QmDdfS06hD91Putw2cDQpl136ud5865MtJSIdTc-l0hSyor59FpxGkmsUvK4qHPV6Hw.webp",
+        "mvurl" : "https://www.youtube.com/embed/tVv_C2fYStU?si=0im9kZNlnu0HuY4x",
+        "mvurlalt": " ",
+        "date": "2024-01-17",
+        "lyricsNum": 2,
+        "lyrics":
+        [
+          "늘 이렇게 곁에 내 옆에 있어 줄래",
+          "조금 느리면 뭐 어때 나 이렇게 기다릴게"
         ]
       }
     ];
