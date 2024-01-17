@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 16;
+    // let lsongNum = 17;
 
     let lsongList = [
       {
@@ -291,6 +291,22 @@
         [
           "늘 이렇게 곁에 내 옆에 있어 줄래",
           "조금 느리면 뭐 어때 나 이렇게 기다릴게"
+        ]
+      },
+      {
+        "id": 18,
+        "title": "파이팅 해야지 (Feat. 이영지)",
+        "artist": "부석순 (SEVENTEEN)",
+        "thumbnail": "https://i.namu.wiki/i/qst-qLdF2ePAgcfT8kPqUwNzay-Mjvrp8skKeJdm5D6pjCPzx8cKycG7FeREQvqJIuunvdYQwMEj3VCgJD3ldI_fDDxE5FlxjN43UhqXTgPYJbUKdtLZruB1AOP1rninJeZVMtLAKIBWvoOW0qdDXA.webp",
+        "mvurl" : "https://www.youtube.com/embed/mBXBOLG06Wc?si=YtefZtPd_RfPWfnG",
+        "mvurlalt": " ",
+        "date": "2024-01-18",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "올라갔다 내려가는 주식같이",
+          "알다가도 모르겠는 인생 뭣 같지",
+          "한 템포 쉬고 물 한 모금 마시기"
         ]
       }
     ];
