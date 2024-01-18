@@ -300,6 +300,25 @@
           "알다가도 모르겠는 인생 뭣 같지",
           "한 템포 쉬고 물 한 모금 마시기"
         ]
+      },
+      {
+        "id": 19,
+        "title": "촛불하나",
+        "artist": "god",
+        "thumbnail": "https://i.namu.wiki/i/3mMYO2rJvduWWnp8mYhcCvM8heLQsygo9AKOuDPJ3U59eLlpCEOXIg_QLHLWJMqFvZh3n5mzED9nyMOKTYxek3-970f0Wd-AZ7b_5PfPI_owYMXqP5KIFRaDMufqbD_8o5lBlASJFC3eZdQ15Xqe4Q.webp",
+        "mvurl" : "https://www.youtube.com/embed/jPry6wnwyqU?si=NRGIiuh25i5u-_-d",
+        "mvurlalt": "https://www.youtube.com/embed/aeaJ05OG4qY?si=m0tlJ_Vc1zinCRH4",
+        "date": "2024-01-19",
+        "lyricsNum": 6,
+        "lyrics":
+        [
+          "아무것도 없다고 믿었던 내 주위엔",
+          "또 다른 초 하나가 놓여져 있었기에",
+          "불을 밝히니 촛불이 두 개가 되고",
+          "그 불빛으로 다른 초를 또 찾고",
+          "세 개가 되고 네 개가 되고",
+          "어둠은 사라져 가고"
+        ]
       }
     ];
 
@@ -311,7 +330,7 @@
   let title = "하루 한 곡";
   
   let songNum = today.getDate()-1;
-  // let songNum = 17;
+  // let songNum = 18;
   console.log(today);
   
 </script>
