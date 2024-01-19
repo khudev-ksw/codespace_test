@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 18;
+    // let lsongNum = 19;
 
     let lsongList = [
       {
@@ -326,6 +326,23 @@
           "그 불빛으로 다른 초를 또 찾고",
           "세 개가 되고 네 개가 되고",
           "어둠은 사라져 가고"
+        ]
+      },
+      {
+        "id": 20,
+        "title": "쉼표",
+        "artist": "이무진",
+        "thumbnail": "https://i.namu.wiki/i/Z4eOQAemH0KaVEOoRg6wFOzDf47p3r82iLLkMaP_iCTD4gPjOj4x5wE7-jmOV8xVa2GXfaV0hZmFTxj8BrLe_vSlHhwYFkFhbVGQ5iR_ohfYaCh3JDuA0t-lKqWCP4YZwo-EpEYHzdjdl6KckRZl8g.webp",
+        "mvurl" : "https://www.youtube.com/embed/0BlPOInxIEg?si=8eAb16Kct5Ybw2BH",
+        "mvurlalt": " ",
+        "date": "2024-01-20",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "힘내라는 말 안할게",
+          "다 놓은 채 그냥 포기해도 돼",
+          "최선을 다했기에",
+          "지쳐버린 너의 모습 그대로 아름답기에"
         ]
       }
     ];
