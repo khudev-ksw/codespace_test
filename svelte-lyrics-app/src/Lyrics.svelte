@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 19;
+    // let lsongNum = 20;
 
     let lsongList = [
       {
@@ -343,6 +343,39 @@
           "다 놓은 채 그냥 포기해도 돼",
           "최선을 다했기에",
           "지쳐버린 너의 모습 그대로 아름답기에"
+        ]
+      },
+      {
+        "id": 21,
+        "title": "紡ぐ",
+        "artist": "とた",
+        "thumbnail": "https://image.bugsm.co.kr/album/images/original/205413/20541324.jpg?version=undefined",
+        "mvurl" : "https://www.youtube.com/embed/QU-Vq9NTASc?si=yC2jM5B8zOG7P1-V",
+        "mvurlalt": "https://www.youtube.com/embed/NDwqZIXOvKw?si=g1AtHEXBn3N3Cepu",
+        "date": "2024-01-21",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "水溜りに一粒落ちた雫で",
+          "世界は波打歪んで見えた",
+          "大事なものすら曇り空",
+          "影隠されて下を向く"
+        ]
+      },
+      {
+        "id": 33,
+        "title": "길",
+        "artist": "god",
+        "thumbnail": "https://i.namu.wiki/i/ZT0nGNdmBcj5_RcCOXu8uixYnoeOyotkzZJz48AO4lyKGoI7etVGSPWWMg15czK_uzRHT4MKFp5wQDJmsf-_ihwEeDQxUqSYz_6mBdwXgfnkzpu_oOV7q-bRYDmrdyWfZxz5nWd9Tw0Mx59Rsb-bdw.webp",
+        "mvurl" : "https://www.youtube.com/embed/laTIgnzONFI?si=0uC2lpiciBoYUAGx",
+        "mvurlalt": " ",
+        "date": "2024-01-21",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "나는 왜 이 길에 서있나",
+          "이게 정말 나의 길인가",
+          "이 길의 끝에서 내 꿈은 이뤄질까"
         ]
       }
     ];
