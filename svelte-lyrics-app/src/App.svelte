@@ -355,6 +355,23 @@
         ]
       },
       {
+        "id": 22,
+        "title": "비행선",
+        "artist": "이용신",
+        "thumbnail": "https://i.namu.wiki/i/blypYYIRYw8L4W0ILxWA9PQargZJt79W2ks9Ug6QPKD-XguQjSCmYvyz5J4UusXsCcaOEWJi2sThapg-oBbvjOg18CjlYN8EQpWQPlHmi47IDisdjvNf-luGoxC6eBDrBe78z66bialAy4TKmQtZsQ.webp",
+        "mvurl" : "https://www.youtube.com/embed/VvRRIdEqJtg?si=CdNGN0297NvZ5ldD",
+        "mvurlalt": " ",
+        "date": "2024-01-22",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "저 하늘에 오직 우리 둘만의",
+          "조그만 비행선 타고",
+          "구름 위에 지친 몸을 누이고",
+          "잊었던 미소 지어봐"
+        ]
+      },
+      {
         "id": 33,
         "title": "길",
         "artist": "god",
@@ -380,7 +397,7 @@
   let title = "하루 한 곡";
   
   let songNum = today.getDate()-1;
-  // let songNum = 20;
+  // let songNum = 21;
   console.log(today);
   
 </script>
