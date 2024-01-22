@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 21;
+    // let lsongNum = 22;
 
     let lsongList = [
       {
@@ -377,6 +377,23 @@
           "조그만 비행선 타고",
           "구름 위에 지친 몸을 누이고",
           "잊었던 미소 지어봐"
+        ]
+      },
+      {
+        "id": 23,
+        "title": "신호등",
+        "artist": "이무진",
+        "thumbnail": "https://i.namu.wiki/i/zLbhgW38EcGT6SD5WwcL76rNEBY_ObzFTEJOYEI7jzUsTetqx1af2eQydMGxFygtc1kkm4jnuH2NjOS2FMc7JEpZxilMaw00k3cQizEqLwwdJTzYEVnNgyu3GubAI4R5Qs-Wtqyiz9rMYWIpBdWegw.webp",
+        "mvurl" : "https://www.youtube.com/embed/SK6Sm2Ki9tI?si=nH-mxtBS3LcXsv0T",
+        "mvurlalt": " ",
+        "date": "2024-01-23",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "건반처럼 생긴 도로 위",
+          "수많은 조명들이 날 빠르게",
+          "번갈아 가며 비추고 있지만",
+          "난 아직 초짜란 말이야"
         ]
       },
       {

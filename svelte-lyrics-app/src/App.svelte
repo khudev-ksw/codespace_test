@@ -372,6 +372,23 @@
         ]
       },
       {
+        "id": 23,
+        "title": "신호등",
+        "artist": "이무진",
+        "thumbnail": "https://i.namu.wiki/i/zLbhgW38EcGT6SD5WwcL76rNEBY_ObzFTEJOYEI7jzUsTetqx1af2eQydMGxFygtc1kkm4jnuH2NjOS2FMc7JEpZxilMaw00k3cQizEqLwwdJTzYEVnNgyu3GubAI4R5Qs-Wtqyiz9rMYWIpBdWegw.webp",
+        "mvurl" : "https://www.youtube.com/embed/SK6Sm2Ki9tI?si=nH-mxtBS3LcXsv0T",
+        "mvurlalt": " ",
+        "date": "2024-01-23",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "건반처럼 생긴 도로 위",
+          "수많은 조명들이 날 빠르게",
+          "번갈아 가며 비추고 있지만",
+          "난 아직 초짜란 말이야"
+        ]
+      },
+      {
         "id": 33,
         "title": "길",
         "artist": "god",
@@ -397,7 +414,7 @@
   let title = "하루 한 곡";
   
   let songNum = today.getDate()-1;
-  // let songNum = 21;
+  // let songNum = 22;
   console.log(today);
   
 </script>
