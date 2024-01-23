@@ -397,13 +397,13 @@
         ]
       },
       {
-        "id": 33,
+        "id": 24,
         "title": "길",
         "artist": "god",
         "thumbnail": "https://i.namu.wiki/i/ZT0nGNdmBcj5_RcCOXu8uixYnoeOyotkzZJz48AO4lyKGoI7etVGSPWWMg15czK_uzRHT4MKFp5wQDJmsf-_ihwEeDQxUqSYz_6mBdwXgfnkzpu_oOV7q-bRYDmrdyWfZxz5nWd9Tw0Mx59Rsb-bdw.webp",
         "mvurl" : "https://www.youtube.com/embed/laTIgnzONFI?si=0uC2lpiciBoYUAGx",
         "mvurlalt": " ",
-        "date": "2024-01-21",
+        "date": "2024-01-24",
         "lyricsNum": 3,
         "lyrics":
         [
