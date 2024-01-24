@@ -403,6 +403,23 @@
           "이게 정말 나의 길인가",
           "이 길의 끝에서 내 꿈은 이뤄질까"
         ]
+      },
+      {
+        "id": 25,
+        "title": "Eternity",
+        "artist": "권은비",
+        "thumbnail": "https://i.namu.wiki/i/c90OYa52OaAZywrLCcOFxuKawCRuWSio40idnLcGtKLCHqflsugt_BqG8B2TdZL6mLmdLH_x4Hc8S9pa-wZm-PiCXBEC-wugT_y08DHK25eTnM1CWKfDLxNOXa_L4R5ssSx3jNISW7aKM9Ac7YOFzw.webp",
+        "mvurl" : "https://www.youtube.com/embed/Tz7W4RmQyV0?si=1mxrcX6-XNgoBpch",
+        "mvurlalt": " ",
+        "date": "2024-01-25",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "거센 비바람이 지나고 난 뒤",
+          "우리에게 찾아온 계절",
+          "꽃보다 더 아름다운",
+          "초록의 숲을 이룰 거야"
+        ]
       }
     ];
 
@@ -414,7 +431,7 @@
   let title = "하루 한 곡";
   
   let songNum = today.getDate()-1;
-  // let songNum = 22;
+  // let songNum = 24;
   console.log(today);
   
 </script>
