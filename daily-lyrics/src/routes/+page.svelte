@@ -410,7 +410,7 @@
         "id": 25,
         "title": "Eternity",
         "artist": "권은비",
-        "thumbnail": "https://i.namu.wiki/i/c90OYa52OaAZywrLCcOFxuKawCRuWSio40idnLcGtKLCHqflsugt_BqG8B2TdZL6mLmdLH_x4Hc8S9pa-wZm-PiCXBEC-wugT_y08DHK25eTnM1CWKfDLxNOXa_L4R5ssSx3jNISW7aKM9Ac7YOFzw.webp",
+        "thumbnail": "https://i.namu.wiki/i/rBrxLS1SkeQuSyYbsGaNP60QpeE20e5ZiaJA_uaaTjUzxoQtPE_-uUfA4h35Sbka6v3YES0yEWWO24A9lSY1ZaZiXDzbuACZK12czr_qoLC8fT_kyV_MtjlYKk0FInXXkJsFlhAez6DSE5Qw_9L4CA.webp",
         "mvurl" : "https://www.youtube.com/embed/Tz7W4RmQyV0?si=1mxrcX6-XNgoBpch",
         "mvurlalt": " ",
         "date": "2024-01-25",
