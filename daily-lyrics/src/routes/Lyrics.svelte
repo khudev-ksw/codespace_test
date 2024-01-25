@@ -499,7 +499,7 @@
   {/each}
   <!-- <p class="lyrics-line">{lyrics1}</p>
   <p class="lyrics-line">{lyrics2}</p> -->
-  <p>SvelteKit immigration test</p>
+  <p>SvelteKit migration test</p>
   {#if showPlayIcon}
     <span class="play-icon show">▶</span>
   {/if}
