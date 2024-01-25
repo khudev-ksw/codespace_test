@@ -5,14 +5,14 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link href="./_app/immutable/assets/2.eCgvY00t.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.rcl9IsuY.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.0Kv1KteR.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.vu5OxXgN.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.P7Cn5sHG.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.DtfaCPMh.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.ackVjIBn.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.QrcCR1H4.js">
+		<link href="./app/immutable/assets/2.eCgvY00t.css" rel="stylesheet">
+		<link rel="modulepreload" href="./app/immutable/entry/start.rcl9IsuY.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/entry.0Kv1KteR.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/scheduler.vu5OxXgN.js">
+		<link rel="modulepreload" href="./app/immutable/entry/app.P7Cn5sHG.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/index.DtfaCPMh.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/0.ackVjIBn.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/2.QrcCR1H4.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">  <header class="svelte-sogdmd"><div class="date-info svelte-sogdmd">2024년 1월 25일 목요일, 오늘의 노래</div> <div class="title svelte-sogdmd">하루 한 곡</div></header> <div class="container svelte-sogdmd"><div class="album-art svelte-sogdmd" style="background-image: url(https://i.namu.wiki/i/c90OYa52OaAZywrLCcOFxuKawCRuWSio40idnLcGtKLCHqflsugt_BqG8B2TdZL6mLmdLH_x4Hc8S9pa-wZm-PiCXBEC-wugT_y08DHK25eTnM1CWKfDLxNOXa_L4R5ssSx3jNISW7aKM9Ac7YOFzw.webp)"><div class="lyrics svelte-y7qwkx"><p class="lyrics-line svelte-y7qwkx">거센 비바람이 지나고 난 뒤</p><p class="lyrics-line svelte-y7qwkx">우리에게 찾아온 계절</p><p class="lyrics-line svelte-y7qwkx">꽃보다 더 아름다운</p><p class="lyrics-line svelte-y7qwkx">초록의 숲을 이룰 거야</p>  <p data-svelte-h="svelte-9vczvj">SvelteKit immigration test</p>  </div> </div></div> 
@@ -28,8 +28,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.rcl9IsuY.js"),
-						import("./_app/immutable/entry/app.P7Cn5sHG.js")
+						import("./app/immutable/entry/start.rcl9IsuY.js"),
+						import("./app/immutable/entry/app.P7Cn5sHG.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
