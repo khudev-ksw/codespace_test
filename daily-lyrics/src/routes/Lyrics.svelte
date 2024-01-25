@@ -429,6 +429,23 @@
           "꽃보다 더 아름다운",
           "초록의 숲을 이룰 거야"
         ]
+      },
+      {
+        "id": 26,
+        "title": "위잉위잉",
+        "artist": "혁오",
+        "thumbnail": "https://i.namu.wiki/i/jFfyD_WKhBVOgmG-8XQIYFcPO4F702aNwngoJyQ7Jldt-uajQVjYja_o23XGOn24EFEtYBVvSKTaiUw1_iIRZopyNijSGgv0621yBkuYyDDimjU8XaH4IBls4Df62jRhpJRrBjPvav-1-ZJn31XyxA.webp",
+        "mvurl" : "https://www.youtube.com/embed/IUoTjkS242c?si=yYbssnN6tR-J8bOO",
+        "mvurlalt": " ",
+        "date": "2024-01-26",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "비틀비틀 걸어가는 나의 다리",
+          "오늘도 의미없는 또 하루가 흘러가죠",
+          "사랑도 끼리끼리 하는거라 믿는 나는",
+          "좀처럼 두근두근 거릴일이 전혀없죠"
+        ]
       }
     ];
 
@@ -499,7 +516,6 @@
   {/each}
   <!-- <p class="lyrics-line">{lyrics1}</p>
   <p class="lyrics-line">{lyrics2}</p> -->
-  <p>SvelteKit migration test</p>
   {#if showPlayIcon}
     <span class="play-icon show">▶</span>
   {/if}
