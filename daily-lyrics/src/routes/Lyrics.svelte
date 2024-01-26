@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 22;
+    // let lsongNum = 26;
 
 
     let lsongList = [
@@ -445,6 +445,23 @@
           "오늘도 의미없는 또 하루가 흘러가죠",
           "사랑도 끼리끼리 하는거라 믿는 나는",
           "좀처럼 두근두근 거릴일이 전혀없죠"
+        ]
+      },
+      {
+        "id": 27,
+        "title": "주저하는 연인들을 위해",
+        "artist": "잔나비",
+        "thumbnail": "https://i.namu.wiki/i/-RGx3wAhn2fVDk4wRIW5C_083-mcbuBlbAsjt9YD3BcPvVMI_-TXfvbkwIoDcuHDMrlwsngiOrln1zad7zgSiGa2qly5Sws_mjnBgx6CbDj4dP8x14z4ZIScKiAvDwtz8qogQ2K44Y1VDzIHzDOQrQ.webp",
+        "mvurl" : "https://www.youtube.com/embed/GpQ222I1ULc?si=rq9Qq4LunNk47x_O",
+        "mvurlalt": " ",
+        "date": "2024-01-27",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "나의 자라나는 마음을",
+          "못 본채 꺾어 버릴 수는 없네",
+          "미련 남길바엔 그리워 아픈 게 나아",
+          "서둘러 안겨본 그 품은 따스할 테니"
         ]
       }
     ];
