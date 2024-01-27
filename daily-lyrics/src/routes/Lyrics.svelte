@@ -463,6 +463,25 @@
           "미련 남길바엔 그리워 아픈 게 나아",
           "서둘러 안겨본 그 품은 따스할 테니"
         ]
+      },
+      {
+        "id": 28,
+        "title": "꿈을 꾸는 동안 (夢を見ている間) (Japanese Ver.)",
+        "artist": "PRODUCE48",
+        "thumbnail": "https://i.namu.wiki/i/o3yooAbBKniZ0T3U57lQILDi9lnSFlzuzhFgCfeU6k_It4NAzaadEJpBgxNW78rbYk8GEusj3QvUO2ZLPbm7spt0ETGk_7qvuN9JbDT5aTZY7iGaQ9_CcZa8A6NxbsVt11Gscyx7-F75oGCuxQBrCQ.webp",
+        "mvurl" : "https://www.youtube.com/embed/3aOnnbtdKi0?si=ewqxJvLbEC5Q1uWO",
+        "mvurlalt": " ",
+        "date": "2024-01-28",
+        "lyricsNum": 6,
+        "lyrics":
+        [
+          "忘れない夢は消えていくもの",
+          "いつかは叶ったり叶わなかったり",
+          "そうでけど夢を",
+          "見ている時間は",
+          "なんて幸せなの",
+          "今を生きている"
+        ]
       }
     ];
 
