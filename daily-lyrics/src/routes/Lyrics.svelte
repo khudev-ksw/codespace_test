@@ -9,7 +9,7 @@
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
     let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 26;
+    // let lsongNum = 28;
 
 
     let lsongList = [
@@ -467,7 +467,7 @@
       {
         "id": 28,
         "title": "꿈을 꾸는 동안 (夢を見ている間) (Japanese Ver.)",
-        "artist": "PRODUCE48",
+        "artist": "PRODUCE 48",
         "thumbnail": "https://i.namu.wiki/i/o3yooAbBKniZ0T3U57lQILDi9lnSFlzuzhFgCfeU6k_It4NAzaadEJpBgxNW78rbYk8GEusj3QvUO2ZLPbm7spt0ETGk_7qvuN9JbDT5aTZY7iGaQ9_CcZa8A6NxbsVt11Gscyx7-F75oGCuxQBrCQ.webp",
         "mvurl" : "https://www.youtube.com/embed/3aOnnbtdKi0?si=ewqxJvLbEC5Q1uWO",
         "mvurlalt": " ",
@@ -477,10 +477,26 @@
         [
           "忘れない夢は消えていくもの",
           "いつかは叶ったり叶わなかったり",
-          "そうでけど夢を",
+          "そうだけど夢を",
           "見ている時間は",
           "なんて幸せなの",
           "今を生きている"
+        ]
+      },
+      {
+        "id": 29,
+        "title": "Love War (Feat. BE'O)",
+        "artist": "YENA (최예나)",
+        "thumbnail": "https://i.namu.wiki/i/FVMlij4JHSGEL-WPfJxE4CkMmIsY4zqUSJocCM3q7zd3uhJw8UUtnD7T2Due4yaTdnEH_KpnwhJQk5W1zszn_qFsYOLdLR89WVjeB0n8OG9P6BFpsP0slDNUP9Fs2fenrcsVaeQpqaei_ik7sKcPOw.webp",
+        "mvurl" : "https://www.youtube.com/embed/AWIpPQ6z-rk?si=fx2C_MT7OF9tzEkC",
+        "mvurlalt": " ",
+        "date": "2024-01-29",
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "입 쭉 내밀고 있으면",
+          "그럼 일이 다 해결되나",
+          "어디 할말 있음 말해 봐"
         ]
       }
     ];
