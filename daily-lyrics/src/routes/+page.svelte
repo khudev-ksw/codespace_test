@@ -491,6 +491,23 @@
           "그럼 일이 다 해결되나",
           "어디 할말 있음 말해 봐"
         ]
+      },
+      {
+        "id": 30,
+        "title": "Pretender",
+        "artist": "Official髭男dism",
+        "thumbnail": "https://i.namu.wiki/i/wpud1X9hUYZPq97DZYwTRxHKMYMo4RgbfQBA-QY15CA2TuzEr1D3C2he2LVyEeLkKi8-qNEUKFU9DH9Z3XtGE6QapXLRW9-0Vhw-88N1j0Y30uCDesuSKVySetvQG4E1w66kNIygsWcYm5aNxccB9A.webp",
+        "mvurl" : "https://www.youtube.com/embed/Ujx2tHTdZWA?si=1N9JX2967r8WPg2T",
+        "mvurlalt": "https://www.youtube.com/embed/TQ8WlA2GXbk?si=3IW9-h7rfaKKjw2e",
+        "date": "2024-01-30",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "もっと違う設定で",
+          "もっと違う関係で",
+          "出会える世界線",
+          "選べたらよかった"
+        ]
       }
       ];
 
@@ -510,19 +527,36 @@
   
   <style>
   header {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     align-items: center;
+    /* text-align: center; */
     padding: 10px;
     background-color: #f0f0f0;
   }
   
   .title {
+    /* order: 2; */
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
     font-size: 18px;
     font-weight: bold;
   }
   
   .date-info {
+    /* order: 1; */
+    display: flex;
+    justify-content: start;
+    font-size: 16px;
+  }
+
+  .navi {
+    /* order: 3; */
+    display: flex;
+    justify-content: end;
+    /* text-align: end; */
     font-size: 16px;
   }
   
@@ -549,7 +583,7 @@
   </style>
   
   <header>
-    <div class="date-info">
+    <span class="date-info">
       {#if (today.getMonth()==11 && today.getDate()==31)}
         {today.getFullYear()}년 {today.getMonth() + 1}월 {today.getDate()}일 {dayOfWeek}요일, 올해의 마지막 노래
       {:else if (today.getMonth()==0 && today.getDate()==1)}
@@ -557,8 +591,9 @@
       {:else}
         {today.getFullYear()}년 {today.getMonth() + 1}월 {today.getDate()}일 {dayOfWeek}요일, 오늘의 노래
       {/if}
-    </div>
-    <div class="title">{title}</div>
+    </span>
+    <span class="title">{title}</span>
+    <span class="navi">{title}</span>
   </header>
   
   <div class="container">

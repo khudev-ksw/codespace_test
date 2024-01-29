@@ -498,6 +498,23 @@
           "그럼 일이 다 해결되나",
           "어디 할말 있음 말해 봐"
         ]
+      },
+      {
+        "id": 30,
+        "title": "Pretender",
+        "artist": "Official髭男dism",
+        "thumbnail": "https://i.namu.wiki/i/wpud1X9hUYZPq97DZYwTRxHKMYMo4RgbfQBA-QY15CA2TuzEr1D3C2he2LVyEeLkKi8-qNEUKFU9DH9Z3XtGE6QapXLRW9-0Vhw-88N1j0Y30uCDesuSKVySetvQG4E1w66kNIygsWcYm5aNxccB9A.webp",
+        "mvurl" : "https://www.youtube.com/embed/Ujx2tHTdZWA?si=1N9JX2967r8WPg2T",
+        "mvurlalt": "https://www.youtube.com/embed/TQ8WlA2GXbk?si=3IW9-h7rfaKKjw2e",
+        "date": "2024-01-30",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "もっと違う設定で",
+          "もっと違う関係で",
+          "出会える世界線",
+          "選べたらよかった"
+        ]
       }
     ];
 
