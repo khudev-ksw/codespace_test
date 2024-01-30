@@ -508,9 +508,25 @@
           "出会える世界線",
           "選べたらよかった"
         ]
+      },
+      {
+        "id": 31,
+        "title": "불협화음 (Feat. AKMU)",
+        "artist": "Mudd the student",
+        "thumbnail": "https://i.namu.wiki/i/D2CrAdMUEbFgz_xlsUuJRF1EHN6bSbNtEbTNTZTzzqLBBt2t2z389e6BRSkorDN9L1ReJ4mSYarO84nmRnq1Ve_yocwpVk4FJ1BnzQ_bctNX2ahrP3-FDJptlTSoZII6TOJaLXSJ6RMfOqqBDNUEeQ.webp",
+        "mvurl" : "https://www.youtube.com/embed/Nr_VQDuz3EE?si=HAxY7cfIjRIlWA63",
+        "mvurlalt": " ",
+        "date": "2024-01-31",
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "우리는 똑같이 쓸모없고",
+          "세상은 뭣 같이 아름답지",
+          "누가 나를 사랑할 수 있다 했어?",
+          "거짓말 치지 마 재수 없어 당신"
+        ]
       }
       ];
-
   
   
     let today = new Date();
