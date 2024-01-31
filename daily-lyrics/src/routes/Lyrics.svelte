@@ -8,8 +8,8 @@
 
     let ltoday = new Date();
     ltoday.setHours(ltoday.getHours()); // Set to KST    
-    let lsongNum = ltoday.getDate()-1;
-    // let lsongNum = 28;
+    // let lsongNum = ltoday.getDate()-1;
+    let lsongNum = 31;
 
 
     let lsongList = [
@@ -532,7 +532,24 @@
           "누가 나를 사랑할 수 있다 했어?",
           "거짓말 치지 마 재수 없어 당신"
         ]
-      }
+      },
+      {
+          "id": 32,
+          "title": "Discord",
+          "artist": "QWER",
+          "thumbnail": "https://i.namu.wiki/i/DxYq0Qdznf32WxVvupxneNcHf4ymnmPSY2WsqUsyPrMm5QdaB-RHzxq6YFmiAuMDFPweDBw3FSf36rDeWu1gnnJerakPY11NxFmcJyLjWt8YCGwAIW2ceq7_wMUjO2DDrw8bFkm36ZroqvNUOff-wQ.webp",
+          "mvurl": "https://www.youtube.com/embed/WGm2HmXeeRI?si=mtI2T0dodVf-JFlV",
+          "mvurlalt": " ",
+          "date": "2024-02-01",
+          "lyricsNum": 4,
+          "lyrics":
+          [
+            "딱 하나만 물어볼게 넌",
+            "완벽이란 게 있다고 생각해?",
+            "조금은 어색한 하모니라 해도",
+            "그것도 그것대로 꽤 멋지잖아"
+          ]
+        }
     ];
 
     // 가사 수에 따른 lyrics 초기화
