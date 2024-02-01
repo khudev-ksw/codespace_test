@@ -542,12 +542,32 @@
             "조금은 어색한 하모니라 해도",
             "그것도 그것대로 꽤 멋지잖아"
           ]
-        }
+        },
+        {
+        "id": 33,
+        "title": "그때 그 아인",
+        "artist": "김필",
+        "thumbnail": "https://i.namu.wiki/i/vLoPhG1tof8KQ9BvWO9lsk4_Z9SRcL5yKVgCkZZRyXH1UODxKUu1R0Ulsacc8rtcq-wdRXGJHo75vBms7F3Pq6Q7RAiDO4s_Pu2IupnMldwxD6KlncJOoSPCEROA-bicp6FPD474Fnfr1ACsYgpoTw.webp",
+        "mvurl": "https://www.youtube.com/embed/mAjsF4UTg8g?si=hdV4XDcV1aFctCLM",
+        "mvurlalt": " ",
+        "date": new Date("2024-02-02"),
+        "lyricsNum": 6,
+        "lyrics":
+        [
+          "시간은 벌써 나를 키우고",
+          "세상 앞으로 이젠 나가 보라고",
+          "어제의 나는 내게 묻겠지",
+          "웃을 만큼 행복해진 것 같냐고",
+          "아주 먼 훗날 그대 그 아인",
+          "꿈꿔왔던 모든 걸 가진 거냐고"
+        ]
+      }  
       ];
   
   
     let today = new Date();
-    today.setHours(today.getHours()); // Set to KST
+    // today.setHours(today.getHours()); // Set to KST
+    today.setHours(today.getHours()+9); // Set to KST
     console.log(today);
     today.setHours(0,0,0,0);
     let dayNames = ["일", "월", "화", "수", "목", "금", "토"];
