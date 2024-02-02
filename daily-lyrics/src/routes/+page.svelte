@@ -509,23 +509,23 @@
       //     "選べたらよかった"
       //   ]
       // },
-      {
-        "id": 31,
-        "title": "불협화음 (Feat. AKMU)",
-        "artist": "Mudd the student",
-        "thumbnail": "https://i.namu.wiki/i/D2CrAdMUEbFgz_xlsUuJRF1EHN6bSbNtEbTNTZTzzqLBBt2t2z389e6BRSkorDN9L1ReJ4mSYarO84nmRnq1Ve_yocwpVk4FJ1BnzQ_bctNX2ahrP3-FDJptlTSoZII6TOJaLXSJ6RMfOqqBDNUEeQ.webp",
-        "mvurl" : "https://www.youtube.com/embed/Nr_VQDuz3EE?si=HAxY7cfIjRIlWA63",
-        "mvurlalt": " ",
-        "date": new Date("2024-01-31"),
-        "lyricsNum": 4,
-        "lyrics":
-        [
-          "우리는 똑같이 쓸모없고",
-          "세상은 뭣 같이 아름답지",
-          "누가 나를 사랑할 수 있다 했어?",
-          "거짓말 치지 마 재수 없어 당신"
-        ]
-      },
+      // {
+      //   "id": 31,
+      //   "title": "불협화음 (Feat. AKMU)",
+      //   "artist": "Mudd the student",
+      //   "thumbnail": "https://i.namu.wiki/i/D2CrAdMUEbFgz_xlsUuJRF1EHN6bSbNtEbTNTZTzzqLBBt2t2z389e6BRSkorDN9L1ReJ4mSYarO84nmRnq1Ve_yocwpVk4FJ1BnzQ_bctNX2ahrP3-FDJptlTSoZII6TOJaLXSJ6RMfOqqBDNUEeQ.webp",
+      //   "mvurl" : "https://www.youtube.com/embed/Nr_VQDuz3EE?si=HAxY7cfIjRIlWA63",
+      //   "mvurlalt": " ",
+      //   "date": new Date("2024-01-31"),
+      //   "lyricsNum": 4,
+      //   "lyrics":
+      //   [
+      //     "우리는 똑같이 쓸모없고",
+      //     "세상은 뭣 같이 아름답지",
+      //     "누가 나를 사랑할 수 있다 했어?",
+      //     "거짓말 치지 마 재수 없어 당신"
+      //   ]
+      // },
       {
           "id": 32,
           "title": "Discord",
@@ -561,10 +561,28 @@
           "아주 먼 훗날 그대 그 아인",
           "꿈꿔왔던 모든 걸 가진 거냐고"
         ]
-      }  
+      },
+      {
+        "id": 34,
+        "title": "I AM",
+        "artist": "IVE (아이브)",
+        "thumbnail": "https://i.namu.wiki/i/kDMi_mXIZL-Eq1iZ1ev3n9tWddLIzADSf1-9zgbvQA2jHcisyQr_kzYzASWuxWvplIvhKb9bk36I6jq7Z8ZWyBMyG17KtjmHjaElVtE6Fpf4BWDV8mcxMZHd1JgjVSZy7Jbq2qulE5Mv5o8B37_clg.webp",
+        "mvurl": "https://www.youtube.com/embed/cU0JrSAyy7o?si=BcUT_DgDOM0vSchZ",
+        "mvurlalt": "https://www.youtube.com/embed/6ZUIwj3FgUY?si=YeZlQEWPiG_ESra8",
+        "date": new Date("2024-02-03"),
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "어느 깊은 밤",
+          "길을 잃어도",
+          "차라리 날아올라 그럼 네가",
+          "지나가는 대로 길이거든"
+        ]
+      }    
       ];
-  
-  
+
+    
+    console.log("---- +page.svelte ----")
     let today = new Date();
     // today.setHours(today.getHours()); // Set to KST
     today.setHours(today.getHours()+9); // Set to KST
@@ -575,13 +593,16 @@
     let title = "하루 한 곡";
     
     // let songNum = today.getDate()-1;
-    let songNum;
+    let songNum = 0;
     let songNumCount;
     for(songNumCount = 0; songNumCount<songList.length; songNumCount++) {
       console.log(songNumCount);
       console.log(songList[songNumCount]["date"])
-      if(songList[songNumCount]["date"].getTime()===today.getTime()) {
+      let songListTime = songList[songNumCount]["date"];
+      songListTime.setHours(0,0,0,0);
+      if(songListTime.getTime()===today.getTime()) {
         songNum = songNumCount;
+        console.log(songNum);
         break;
       }
     }
@@ -664,7 +685,7 @@
   <div class="container">
       {#if (today.getMonth()==11 && today.getDate()==31)}
       아직 서비스 오픈하지 않았습니다.
-    {:else}
+      {:else}
       <div class="album-art" style="background-image: url({songList[songNum]['thumbnail']})">
         <Lyrics/>
       </div>

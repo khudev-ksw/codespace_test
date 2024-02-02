@@ -1,15 +1,19 @@
 <script>
     let lyrics1;
     let lyrics2;
-    let lyrics = [];
+    let lyrics;
     let mvurl;
     let showPlayIcon = false;
     let showVideoPlayer = false;
 
+
+    console.log("---- Lyrics.svelte ----")
     let ltoday = new Date();
     // ltoday.setHours(ltoday.getHours()); // Set to KST
     ltoday.setHours(ltoday.getHours()+9); // Set to KST
+    console.log(ltoday);
     ltoday.setHours(0,0,0,0);
+    console.log(ltoday);
     
 
 
@@ -517,23 +521,23 @@
     //     "選べたらよかった"
     //   ]
     // },
-    {
-      "id": 31,
-      "title": "불협화음 (Feat. AKMU)",
-      "artist": "Mudd the student",
-      "thumbnail": "https://i.namu.wiki/i/D2CrAdMUEbFgz_xlsUuJRF1EHN6bSbNtEbTNTZTzzqLBBt2t2z389e6BRSkorDN9L1ReJ4mSYarO84nmRnq1Ve_yocwpVk4FJ1BnzQ_bctNX2ahrP3-FDJptlTSoZII6TOJaLXSJ6RMfOqqBDNUEeQ.webp",
-      "mvurl" : "https://www.youtube.com/embed/Nr_VQDuz3EE?si=HAxY7cfIjRIlWA63",
-      "mvurlalt": " ",
-      "date": new Date("2024-01-31"),
-      "lyricsNum": 4,
-      "lyrics":
-      [
-        "우리는 똑같이 쓸모없고",
-        "세상은 뭣 같이 아름답지",
-        "누가 나를 사랑할 수 있다 했어?",
-        "거짓말 치지 마 재수 없어 당신"
-      ]
-    },
+    // {
+    //   "id": 31,
+    //   "title": "불협화음 (Feat. AKMU)",
+    //   "artist": "Mudd the student",
+    //   "thumbnail": "https://i.namu.wiki/i/D2CrAdMUEbFgz_xlsUuJRF1EHN6bSbNtEbTNTZTzzqLBBt2t2z389e6BRSkorDN9L1ReJ4mSYarO84nmRnq1Ve_yocwpVk4FJ1BnzQ_bctNX2ahrP3-FDJptlTSoZII6TOJaLXSJ6RMfOqqBDNUEeQ.webp",
+    //   "mvurl" : "https://www.youtube.com/embed/Nr_VQDuz3EE?si=HAxY7cfIjRIlWA63",
+    //   "mvurlalt": " ",
+    //   "date": new Date("2024-01-31"),
+    //   "lyricsNum": 4,
+    //   "lyrics":
+    //   [
+    //     "우리는 똑같이 쓸모없고",
+    //     "세상은 뭣 같이 아름답지",
+    //     "누가 나를 사랑할 수 있다 했어?",
+    //     "거짓말 치지 마 재수 없어 당신"
+    //   ]
+    // },
     {
         "id": 32,
         "title": "Discord",
@@ -569,33 +573,61 @@
           "아주 먼 훗날 그대 그 아인",
           "꿈꿔왔던 모든 걸 가진 거냐고"
         ]
-      }  
+      },
+      {
+        "id": 34,
+        "title": "I AM",
+        "artist": "IVE (아이브)",
+        "thumbnail": "https://i.namu.wiki/i/kDMi_mXIZL-Eq1iZ1ev3n9tWddLIzADSf1-9zgbvQA2jHcisyQr_kzYzASWuxWvplIvhKb9bk36I6jq7Z8ZWyBMyG17KtjmHjaElVtE6Fpf4BWDV8mcxMZHd1JgjVSZy7Jbq2qulE5Mv5o8B37_clg.webp",
+        "mvurl": "https://www.youtube.com/embed/cU0JrSAyy7o?si=BcUT_DgDOM0vSchZ",
+        "mvurlalt": "https://www.youtube.com/embed/6ZUIwj3FgUY?si=YeZlQEWPiG_ESra8",
+        "date": new Date("2024-02-03"),
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "어느 깊은 밤",
+          "길을 잃어도",
+          "차라리 날아올라 그럼 네가",
+          "지나가는 대로 길이거든"
+        ]
+      }
     ];
 
-    let lsongNum;
+    let lsongNum = 0;
     let lsongNumCount;
     for(lsongNumCount = 0; lsongNumCount<lsongList.length; lsongNumCount++) {
       console.log(lsongNumCount);
       console.log(lsongList[lsongNumCount]["date"])
-      if(lsongList[lsongNumCount]["date"].getTime()===ltoday.getTime()) {
+      console.log("lsongList[lsongNumCount]['date'].getTime() : ", lsongList[lsongNumCount]["date"].getTime());
+      let lsongListTime = lsongList[lsongNumCount]["date"];
+      lsongListTime.setHours(0,0,0,0);
+      if(lsongListTime.getTime()===ltoday.getTime()) {
+        console.log("if entered!");
         lsongNum = lsongNumCount;
         break;
       }
     }
-    
+    console.log("ltoday.getTime() : ", ltoday.getTime());
+    console.log("ltoday : ", ltoday);
+    console.log("lsongNum : ", lsongNum);
+
     // let lsongNum = ltoday.getDate()-1;
     // let lsongNum = 31;
 
     // 가사 수에 따른 lyrics 초기화
-    console.log(lsongList[lsongNum]["lyricsNum"]);
-    for(let i=0;i<lsongList[lsongNum]["lyricsNum"];i++) {
-      let lyricLine = lsongList[lsongNum]["lyrics"][i];
-      lyrics = [...lyrics, lyricLine];
-    }
+    // console.log(lsongList[lsongNum]["lyricsNum"]);
+    // for(let i=0;i<lsongList[lsongNum]["lyricsNum"];i++) {
+    //   let lyricLine = lsongList[lsongNum]["lyrics"][i];
+    //   lyrics = [...lyrics, lyricLine];
+    // }
+    
+    console.log("---------------------");
+    console.log(lsongList[lsongNum]); // 이것도 안나옴
+    lyrics = lsongList[lsongNum]["lyrics"];
     console.log(lyrics);
 
-    lyrics1 = lsongList[lsongNum]["lyrics1"];
-    lyrics2 = lsongList[lsongNum]["lyrics2"];
+    // lyrics1 = lsongList[lsongNum]["lyrics1"];
+    // lyrics2 = lsongList[lsongNum]["lyrics2"];
     mvurl = lsongList[lsongNum]["mvurl"];
     console.log(mvurl);
 
