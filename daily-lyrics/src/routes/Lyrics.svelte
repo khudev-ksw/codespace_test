@@ -9,8 +9,8 @@
 
     console.log("---- Lyrics.svelte ----")
     let ltoday = new Date();
-    // ltoday.setHours(ltoday.getHours()); // Set to KST
-    ltoday.setHours(ltoday.getHours()+9); // Set to KST
+    ltoday.setHours(ltoday.getHours()); // Set to KST
+    // ltoday.setHours(ltoday.getHours()+9); // Set to KST
     console.log(ltoday);
     ltoday.setHours(0,0,0,0);
     console.log(ltoday);

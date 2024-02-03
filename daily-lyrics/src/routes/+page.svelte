@@ -584,8 +584,8 @@
     
     console.log("---- +page.svelte ----")
     let today = new Date();
-    // today.setHours(today.getHours()); // Set to KST
-    today.setHours(today.getHours()+9); // Set to KST
+    today.setHours(today.getHours()); // Set to KST
+    // today.setHours(today.getHours()+9); // Set to KST
     console.log(today);
     today.setHours(0,0,0,0);
     let dayNames = ["일", "월", "화", "수", "목", "금", "토"];
