@@ -590,6 +590,22 @@
           "차라리 날아올라 그럼 네가",
           "지나가는 대로 길이거든"
         ]
+      },
+      {
+        "id": 35,
+        "title": "I WANT",
+        "artist": "IVE (아이브)",
+        "thumbnail": "https://i.namu.wiki/i/AtX6sPIxwqgf0vzrRnz7y300UBKDxKY0TtfOqHMbK6ZYxrCfMDpkCkxGyQmDCmVZGG7fvnkULmOQk7mn7tStwpS7j5Tsoj4trdKGtBiSxiBYaBQ0ChX7rxdB3pKElKyFkQVoCxImp_NKG4e2PZ1pKw.webp",
+        "mvurl": "https://www.youtube.com/embed/okVTSehE414?si=qzpDoUy3olh-CXh_",
+        "mvurlalt": " ",
+        "date": new Date("2024-02-04"),
+        "lyricsNum": 3,
+        "lyrics":
+        [
+          "대체 누가 뭐가 그리 답답한데?",
+          "윈래 내일 걱정 따윈 내일모레",
+          "일어나지도 않은 일은 몰라도 돼"
+        ]
       }
     ];
 
