@@ -594,6 +594,24 @@
           "윈래 내일 걱정 따윈 내일모레",
           "일어나지도 않은 일은 몰라도 돼"
         ]
+      },
+      {
+        "id": 36,
+        "title": "자격지심 (Feat. ZICO)",
+        "artist": "BE'O (비오)",
+        "thumbnail": "https://i.namu.wiki/i/MMcF36B-h3u0r7FLcCzhcMp3me-891A-KQ05e1h5ksO3TbcNa6B5EadBgLQb_c11KJlpik4W1MFY8XhmDpD9tMrG0BeaY4GytkYc1Bss__B6VV44GB7E8gKVu94tK47x6pjXawh8JodVKTHu7usgZA.jpg",
+        "mvurl": "https://www.youtube.com/embed/__Ys6bXwRpM?si=NebWzCqQNKlTp20l",
+        "mvurlalt": " ",
+        "date": new Date("2024-02-05"),
+        "lyricsNum": 5,
+        "lyrics":
+        [
+          "티는 안 냈지만 짜증나",
+          "사실 난 속 좁아서",
+          "다 빈말이야",
+          "그릇이 넓지 못한가 봐",
+          "주위 사람의 성공이 배 아파"
+        ]
       }
       ];
 
