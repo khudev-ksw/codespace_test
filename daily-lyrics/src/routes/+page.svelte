@@ -612,6 +612,23 @@
           "그릇이 넓지 못한가 봐",
           "주위 사람의 성공이 배 아파"
         ]
+      },
+      {
+        "id": 37,
+        "title": "힘을 내요, 미스터 김",
+        "artist": "롤러코스터",
+        "thumbnail": "https://image.bugsm.co.kr/album/images/original/34/3449.jpg?version=undefined",
+        "mvurl": "https://www.youtube.com/embed/7nnZRNQg1Ms?si=-zSuR1_frzJbmZi9",
+        "mvurlalt": " ",
+        "date": new Date("2024-02-06"),
+        "lyricsNum": 4,
+        "lyrics":
+        [
+          "이게 아닌데 하면서도",
+          "등만대면 잠이와요",
+          "이름을 말해봐요 미스터김",
+          "당신이 꿈 꾸던 삶은 어디에"
+        ]
       }
       ];
 
